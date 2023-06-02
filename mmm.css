@@ -1,0 +1,118 @@
+* {
+    margin: 0;
+    padding: 0;
+    font-family:Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    background-color: beige;
+}
+
+main {
+    padding: 20px 5%;
+}
+
+article {
+    padding: 15px;
+}
+
+header {
+    padding: 35px;
+    margin: 15px;
+    margin-bottom: 0;
+    background-color: #2c7a29;
+    text-align:right;
+    border-radius: 10px;
+}
+
+#logowiki {
+    text-decoration: none;
+    text-align: left;
+    background-color: #2c7a29;
+    display: inline-flex;
+    padding-left: 0;
+    float: left;
+    color: rgb(255, 255, 255);
+}
+
+#wiki {
+    text-decoration:none;
+}
+
+
+#logo {
+    width: 200px;
+    margin-left: 1%;
+    background-color: #2c7a29;
+}
+
+.menu {
+    color: beige;
+    text-decoration: none;
+    font-weight: bolder;
+    text-align: center;
+    background-color: #2c7a29;
+    display: inline-flex;
+    padding: 10px;
+}
+
+nav, a h2, h1 {
+    background-color: #2c7a29;
+    text-decoration: none;
+}
+
+#img {
+    padding-top: 0;
+}
+
+#grupal {
+    max-width: 100%;
+    border-radius: 10px;
+}
+
+.linkinterno:hover{
+    background-color: #6a4b7e;
+    color: beige;
+}
+
+
+.linkm {
+    text-decoration: none;
+    color: #000000;
+    text-align: left;
+}
+
+.linkm:hover {
+    text-decoration: none;
+    color: #2c7a29;
+    text-align: left;
+}
+
+#albums {
+    padding-left: 5%;
+    margin: 20px;
+    list-style-type: none;
+    list-style-image: url(imagenes/icons8-grabar-música-16.png);
+    color: rgb(73, 37, 37);
+    font-weight: 600;
+}
+
+#miembros {
+    list-style-type: none;
+    display: inline-flex;
+}
+
+ul li {
+    padding: 20px;
+}
+
+
+
+.profilepic {
+    max-width: 230px;
+    border-radius: 10px;
+    height: 340px;
+}
+
+.footer {
+    display: inline-flex;
+}
+
+
