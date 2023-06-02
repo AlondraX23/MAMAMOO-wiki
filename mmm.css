@@ -115,4 +115,36 @@ ul li {
     display: inline-flex;
 }
 
+tr, td {
+    border: 1px solid red;
+}
 
+tfoot {
+    background-color: aquamarine;
+}
+.color-fondo {
+    background-color: chocolate;
+    color: antiquewhite;
+}
+
+.profile {
+    max-width: 730px;
+    border-radius: 10px;
+    height: 540px;
+}
+div {
+    text-align: center;
+    align-items: center;
+}
+
+table {
+    padding: 15px;
+}
+
+#t1 {
+    text-align: center;
+}
+
+spotify {
+padding: 5%;
+}
