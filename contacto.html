@@ -5,39 +5,76 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Formulario</title>
-    <link rel="stylesheet" href="estilos.css">
+    <link rel="stylesheet" href="CSS/mmm.css">
 </head>
 <body>
-    <h1>Contacto</h1>
-    <form action="ejemplo.js" method="post">
-        <fieldset>
-            <legend class="text"><h2>Datos de contacto</h2></legend>
-            <p class="text">
-                Nombre completo
-                <input type="text" title="Escriba nombres y apellidos" name="nombre-completo" id="nombre" placeholder="Alondra Ximena Damián Hernández" size="40" required>
-            </p>
-            <p class="text">
-                Correo electronico
-                <input type="email" placeholder="info@ejemplo.com" title="Ingrese un correo electronico al que tenga acceso" size="40" required>
-            </p>
-        </fieldset>
-        <fieldset>
-            <legend class="text"><h2>Comentarios</h2></legend>
-            <p class="texto">
-                Observaciones 
-                <br>
-                <textarea name="" id="" cols="100" rows="10" title="Puede escribir hasta 1,000 caracteres" placeholder="Escriba sus comentarios, espere una respuesta en el correo que ingrese" required></textarea>
-            </p>
-        </fieldset>
+    <header class="encabezado">
+        <figure id="logowiki">
+            <img id="logo" src="https://images-wixmp-ed30a86b8c4ca887773594c2.wixmp.com/f/a8c33cd9-42c6-420d-beee-67c326391767/dc654t9-8f86dc0d-5f55-43b4-b9d9-e55bffe36b24.png/v1/fill/w_1024,h_200/mamamoo_logo_by_forcex34_dc654t9-fullview.png?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOiJ1cm46YXBwOjdlMGQxODg5ODIyNjQzNzNhNWYwZDQxNWVhMGQyNmUwIiwiaXNzIjoidXJuOmFwcDo3ZTBkMTg4OTgyMjY0MzczYTVmMGQ0MTVlYTBkMjZlMCIsIm9iaiI6W1t7ImhlaWdodCI6Ijw9MjAwIiwicGF0aCI6IlwvZlwvYThjMzNjZDktNDJjNi00MjBkLWJlZWUtNjdjMzI2MzkxNzY3XC9kYzY1NHQ5LThmODZkYzBkLTVmNTUtNDNiNC1iOWQ5LWU1NWJmZmUzNmIyNC5wbmciLCJ3aWR0aCI6Ijw9MTAyNCJ9XV0sImF1ZCI6WyJ1cm46c2VydmljZTppbWFnZS5vcGVyYXRpb25zIl19.GF-qYFigszsSLWxMOt0z4iguCjPKjCUb7jRUqXX9vE8" alt="">
+            <figcaption id="wiki"><h1> -WIKI</h1></figcaption>
+        </figure>
+        
+        <nav>
+            <a class="menu" href="index.html"><h2>Inicio</h2></a>
+            <a class="menu" href="index.html"><h2>Miembros</h2></a>
+            <a class="menu" href="contacto.html"><h2>Contacto</h2></a>
+        </nav>
+    </header>
+    <main>
+        <h2>Contacto</h2>
+        <p>Si usted cuenta con alguna duda, puede comunicarse con nosotros. Si gusta colobaorar también puede ponerse en contacto por este medio</p>
+        <form action="ejemplo.js" method="post">
+            <fieldset>
+                <legend class="text"><h3>Datos de contacto</h3></legend>
+                <p class="text">
+                    Nombre completo
+                    <input type="text" title="Escriba nombres y apellidos" name="nombre-completo" id="nombre" placeholder="Alondra Ximena Damián Hernández" size="40" required>
+                </p>
+                <p class="text">
+                    Correo electronico
+                    <input type="email" placeholder="info@ejemplo.com" title="Ingrese un correo electronico al que tenga acceso" size="40" required>
+                </p>
+            </fieldset>
+            <fieldset>
+                <legend class="text"><h3>Comentarios</h3></legend>
+                <p class="texto">
+                    Observaciones 
+                    <br>
+                    <textarea name="" id="" cols="100" rows="10" title="Puede escribir hasta 1,000 caracteres" placeholder="Escriba sus comentarios, espere una respuesta en el correo que ingrese" required></textarea>
+                </p>
+            </fieldset>
+            <br>
+            <label for="acceptar" class="texto">
+                Acepto el uso de mis datos
+                <input type="checkbox" value=""
+                id="hola">
+            </label>
+            <br>
+            <input type="reset" value="Reiniciar">
+            <input type="submit" value="Enviar">
+        </form>
         <br>
-        <label for="acceptar" class="texto">
-            Acepto el uso de mis datos
-            <input type="checkbox" value=""
-            id="hola">
-        </label>
-        <br>
-        <input type="reset" value="Reiniciar">
-        <input type="submit" value="Enviar">
-    </form>
+    </main>
+   
 </body>
+<footer id="footer">
+    <div class="colorfondo" style="display: inline;">
+        <div class="colorfondo">
+            <h2 class="colorfondo">Sigue a MAMAMOO en sus redes sociales</h2>
+            <p class="colorfondo">© Algunos derechos reservados</p>
+        </div>
+    
+        <div id="redes" class="colorfondo">
+            <a class="colorfondo" href="https://twitter.com/RBW_MAMAMOO" target="_blank ">
+                <img class="colorfondo"src="imagenes/icons8-twitter-circled-48.png" >
+            </a>
+            <a class="colorfondo" href="https://www.instagram.com/mamamoo_official/" target="_blank">
+                <img class="colorfondo" src="imagenes/icons8-instagram-circle-48.png" >
+            </a>
+            <a class="colorfondo" href="https://music.youtube.com/channel/UCC_x7uhz40eyVag5DQnWj-g" target="_blank">
+                <img class="colorfondo" src="imagenes/icons8-youtube-music-48.png" >
+            </a>
+        </div>
+    </div>
+</footer>
 </html>
