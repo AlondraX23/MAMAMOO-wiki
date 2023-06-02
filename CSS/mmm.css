@@ -5,6 +5,11 @@
     background-color: beige;
 }
 
+h1, h2, h3 {
+    font-family: fantasy;
+    text-align: center;
+}
+
 main {
     padding: 20px 5%;
 }
@@ -53,15 +58,12 @@ header {
     padding: 10px;
 }
 
-nav, a h2, h1 {
+nav {
     background-color: #2c7a29;
     text-decoration: none;
 }
 
-h2 {
-    padding: 5px;
-    text-align: left;
-}
+
 
 p {
     text-align: justify;
@@ -153,9 +155,7 @@ table {
     padding: 15px;
 }
 
-#t1 {
-    text-align: right;
-}
+
 
 .spotify {
     padding: 5%;
